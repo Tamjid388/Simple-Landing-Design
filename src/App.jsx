@@ -2,6 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { Loop } from './Components/Loop/Loop'
+import { Loop2 } from './Components/Loop2'
+import { ReactMemo } from './Components/Memo/ReactMemo'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,7 +30,11 @@ function App() {
       <button className="btn btn-primary">Get Started</button>
     </div>
   </div>
+ 
 </div>
+<ReactMemo></ReactMemo>
+{/* <Loop></Loop>
+<Loop2></Loop2> */}
     </>
   )
 }
